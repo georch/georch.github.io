@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'ModernPictogramsNormal';
+    src: url('modernpics-webfont.eot');
+    src: url('modernpics-webfont.eot?#iefix') format('embedded-opentype'),
+         url('modernpics-webfont.woff') format('woff'),
+         url('modernpics-webfont.ttf') format('truetype'),
+         url('modernpics-webfont.svg#ModernPictogramsNormal') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+	color: #FCFAD0;
+	background-color: #A1A194;
+}
+
+a:link,
+a:visited {
+	color: #5B605F;
+	text-decoration: none;
+	-webkit-transition: font-size 0.3s ease;
+	-moz-transition: font-size 0.3s ease;
+	transition: font-size 0.3s ease;
+}
+
+a:hover,
+a:active {
+	color: #A90641;
+	font-size: 1.4em;
+}
+
+p {
+	line-height: 1.4em;
+}
+
+.container {
+	width: 950px;
+}
+
+header h1.title {
+	font: 60px/68px 'Imprima', sans-serif;
+	font-weight: 400;
+	text-align: center;
+	text-shadow: 0 1px 1px #ffffff;
+	color: #464646;
+}
+
+.texto {
+	margin: 0 auto;
+	width: 50%;
+}
+
+.ligas {
+	padding-left: 35%;
+	width: 65%;
+}
+
+footer h3.title {
+	font: 20px/23px 'Imprima', sans-serif;
+	font-weight: 400; 
+	text-align: center;
+	color: #464646;
+}
+
